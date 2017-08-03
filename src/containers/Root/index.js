@@ -1,10 +1,11 @@
-import React from 'react'
+import React from 'react';
 
-import style from './style'
+import style from './style.css';
+import RecipeSearchForm from '../RecipeSearchForm';
 
 const Root = props => (
   <div className={style.root}>
-    <h2>Cześć!</h2>
+    <RecipeSearchForm />
   </div>
 )
 
