@@ -7,6 +7,6 @@ const Root = props => (
   <div className={style.root}>
     <RecipeSearchForm />
   </div>
-)
+);
 
 export default Root
